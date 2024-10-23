@@ -8,7 +8,7 @@ AWS Schema Conversion Tool (SCT) simplifies the process of migrating to AWS by c
 
 ## Architecture
 
-![Architecture Diagram](architecture/architecture_diagram.png)
+![Heterogeneous-Migration-using-SCT-DMS](https://github.com/user-attachments/assets/c482c879-27f2-4525-a64f-a448f4dcae17)
 
 ### Components Explained:
 - **Amazon RDS (Oracle)**: Managed Oracle database instance that serves as the source.
@@ -47,8 +47,8 @@ AWS Schema Conversion Tool (SCT) simplifies the process of migrating to AWS by c
 3. **Launch the Redshift Cluster**:
    - Specify the password as `admin123`.
 
-4. **Set Up SQL Workbench**:
-   - Open SQL Workbench.
+4. **Set Up MySQL Workbench**:
+   - Open MySQL Workbench.
    - Create a connection to the Oracle RDS instance using the JDBC URL format:
      ```
      jdbc:oracle:thin:@<your_oracle_endpoint>:1521:ORCL

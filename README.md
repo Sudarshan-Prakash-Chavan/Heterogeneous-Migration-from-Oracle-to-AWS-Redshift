@@ -8,7 +8,7 @@ AWS Schema Conversion Tool (SCT) simplifies the process of migrating to AWS by c
 
 ## Architecture
 
-![Heterogeneous-Migration-using-SCT-DMS](https://github.com/user-attachments/assets/c482c879-27f2-4525-a64f-a448f4dcae17)
+![Heterogeneous-Migration-from-Oracle-to-AWS-Redshift](https://github.com/user-attachments/assets/feefed3d-102e-452f-81f4-afe9934b0b43)
 
 ### Components Explained:
 - **Amazon RDS (Oracle)**: Managed Oracle database instance that serves as the source.
